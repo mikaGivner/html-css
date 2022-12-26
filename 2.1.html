@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2.1</title>
 </head>
-<body><h1>create an account</h1>
+<body>
+    <form action="#">
+        <h1>create an account</h1>
     
         
         <div>
@@ -16,9 +18,11 @@
         <br/>
         <div>
             <label for="FName" >First Name:</label>
-            <input id="FName" type="text" name="FName" required/></input>
+            <input id="FName" type="text" name="FName" value="whats your name?" required/></input>
+            &nbsp;
             <label for="LName" >Last Name:</label>
-            <input id="LName" type="text" name="LName" required/></input>
+            <input id="LName" type="text" name="LName"placeholder="whats your name?" required/></input>
+
             <input type="submit" value="submit"/>
         </div>
         <br/>
@@ -31,7 +35,7 @@
             <label for="age">Age</label>
             <select  name="age" id="age">
                 <option value="group1">under 18</option>
-                <option value="group1">18-30</option> 
+                <option value="group1" selected>18-30</option> 
                 <option value="group1">31-45</option> 
                 <option value="group1">46-90</option>
                 </select>
@@ -47,6 +51,8 @@
         <br/> <br/>
 
         <button type="button">sigh up</button> 
+        <button type="reset">reset</button> 
+       
         </form>
     
 </body>
